@@ -12,9 +12,9 @@ const Header: React.FunctionComponent<HeaderProps> = () => {
             <div className='text-box'>
                 <h1 className='heading-primary'>
                     <span className='heading-primary-main'>Hi, I'm Ramiz</span>
-                    <span className='heading-primary-sub'>A Web Developer at day & an Android Developer at night</span>
+                    <span className='heading-primary-sub'>Web Developer at day, Android Developer at night</span>
                 </h1>
-                <a className='btn btn-white btn-animated' href='#'>Discover Me</a>
+                <a className='btn btn-white btn-animated' href='#'>Get to know me</a>
             </div>
         </div>
     </header>);
