@@ -14,7 +14,7 @@ const Header: React.FunctionComponent<HeaderProps> = () => {
                     <span className='header__heading-primary--main'>Hi, I'm Ramiz</span>
                     <span className='header__heading-primary--sub'>Web Developer at day, Android Developer at night</span>
                 </h1>
-                <a className='btn btn--white btn--animated' href='www.google.com'>Get to know me</a>
+                <a className='btn btn--white btn--animated' href='#top'>Get to know me</a>
             </div>
         </div>
     </header>);
