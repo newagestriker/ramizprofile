@@ -1,11 +1,11 @@
 .header {
     position: relative;
     height: 95vh;
-    margin: 3rem;
+    margin: 3rem 3rem 0 3rem;
     background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-light, 0.8),
-        rgba($color-primary, 0.8)
+        rgba($color-primary-light, 0.7),
+        rgba($color-primary, 0.7)
       ),
       url("../../images/smart-background.jpg");
     background-position: top;
