@@ -59,6 +59,11 @@ body {
   font-size: $default-font-size;
   font-weight: 700;
   text-transform: uppercase;
+
+  &--highlight{
+    font-size: 2rem;
+    color: $color-highlight;
+  }
 }
 
 .paragraph {
