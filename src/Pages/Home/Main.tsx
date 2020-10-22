@@ -87,6 +87,41 @@ const Main: React.FC<MainProps> = () => {
                 </div>
             </div>
         </section>
+        <section className="section-tours">
+            <div className="u-center-text">
+                <h2 className="heading-secondary u-margin-bottom-big">
+                    Take tour of my Language Profile
+                </h2>
+            </div>
+            <div className="row">
+               <div className="col-1-of-3">
+                   <div className="card">
+                       <div className="card__side card__side--front">
+                          <div className="card__picture card__picture--1">
+                          
+                          </div>
+                          <div className="card__heading">
+
+                          </div>
+                          <div className="card__details">
+
+                          </div>
+                       </div>
+                       <div className="card__side card__side--back card__side--back-1">
+                           Back
+                       </div>
+                   </div>
+               </div>
+               <div className="col-1-of-3">
+                    Col 1 of 3
+               </div>
+               <div className="col-1-of-3">
+                    Col 1 of 3
+               </div>
+               
+               
+            </div>
+        </section>
     </main>);
 }
 
