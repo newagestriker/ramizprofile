@@ -30,7 +30,17 @@
     color: $color-dark;
 
     &::after {
-      background-color: $color-white;
+      background-color: $color-light;
+    }
+  }
+
+  &--green {
+    background-color: $color-green-dark;
+    color: $color-white;
+    font-size: $default-font-size;
+
+    &::after {
+      background-color: $color-green-dark;
     }
   }
 

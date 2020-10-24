@@ -34,6 +34,22 @@
           $color-secondary-dark
         );
       }
+      
+      &-2 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-green-light,
+          $color-green-dark
+        );
+      }
+      
+      &-3 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-light,
+          $color-tertiary-dark
+        );
+      }
     }
   }
 
@@ -62,9 +78,21 @@
     }
 
     &--2 {
+      background-image: linear-gradient(
+        to right bottom,
+        $color-green-light,
+        $color-green-dark
+      ),
+      url("../../images/smart-background.jpg");
     }
 
     &--3 {
+      background-image: linear-gradient(
+        to right bottom,
+        $color-tertiary-light,
+        $color-tertiary-dark
+      ),
+      url("../../images/smart-background.jpg");
     }
   }
 
@@ -91,6 +119,20 @@
         rgba($color-secondary-dark, 0.85)
       );
     }
+    &-2 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-green-light, 0.85),
+        rgba($color-green-dark, 0.85)
+      );
+    }
+    &-3 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-tertiary-light, 0.85),
+        rgba($color-tertiary-dark, 0.85)
+      );
+    }
   }
 
   &__details {
@@ -104,12 +146,34 @@
         text-align: center;
         font-size: 2rem;
         padding: 1rem;
-        color: $color-secondary-dark;
+        color: $color-black;
 
         &:not(:last-child) {
           border-bottom: 1px solid $color-grey-light-2;
         }
       }
     }
+  }
+  &__cta{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  &__price-box{
+    text-align: center;
+    color:$color-white;
+    margin-bottom: 8rem;
+
+  }
+  &__price-only{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+
+  }
+  &__price-value{
+    font-size: 6rem;
+    font-weight: 100;
   }
 }
