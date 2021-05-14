@@ -1,6 +1,6 @@
 {
-  "user": {
-    "name": "string",
+  "Post": {
+    "title": "string",
     "id": "int",
     "createdAt": "date",
   },
