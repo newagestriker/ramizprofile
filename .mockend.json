@@ -1,10 +1,7 @@
 {
-  "User": {
+  "user": {
     "name": "string",
     "id": "int",
-   
     "createdAt": "date",
-  
   },
- 
 }
