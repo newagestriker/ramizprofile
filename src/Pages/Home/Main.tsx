@@ -1,5 +1,5 @@
 import React from 'react';
-import dotnetcore3 from "../../../src/images/dotnetcore3.jpg";
+import dotnetcore from "../../../src/images/dotnetcore.png";
 import nodejs from "../../../src/images/node-js.png";
 import react from "../../../src/images/react-1.png";
 
@@ -32,7 +32,7 @@ const Main: React.FC<MainProps> = () => {
                     <div className="composition">
                         <img src={nodejs} alt="Node Js" className="composition__photo composition__photo--p1" />
                         <img src={react} alt="React" className="composition__photo composition__photo--p2" />
-                        <img src={dotnetcore3} alt="Dot Net Core" className="composition__photo composition__photo--p3" />
+                        <img src={dotnetcore} alt="Dot Net Core" className="composition__photo composition__photo--p3" />
                     </div>
                 </div>
             </div>

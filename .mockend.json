@@ -2,6 +2,6 @@
   "Post": {
     "title": "string",
     "id": "int",
-    "createdAt": "date",
-  },
+    "createdAt": "date"
+  }
 }
